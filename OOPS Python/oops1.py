@@ -24,4 +24,8 @@ sam = employee()
 # calling the method of the class
 #sam.travel("Rajsthan") 
 
-print(type(sam))  # checking the type of the object
+#print(type(sam))  # checking the type of the object
+
+# Outside attributes
+sam.name = "Vikas Jangid"
+print(sam.name)
